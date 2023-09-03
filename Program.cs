@@ -18,7 +18,7 @@ class Program
        int time = Convert.ToInt16(Time);
 
         // ? Declaring the formular 
-        double percentage = (mass * tension) / time;   
+        float percentage = (float)(mass * tension / time);   
 
         // !Printing out the result to the console
         Console.WriteLine($"The weight of the body is accumulated to {percentage}");
